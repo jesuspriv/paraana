@@ -49,7 +49,7 @@ var doc=document,flower=doc.querySelector('.flower'),petalPartMarkup='<div class
     // Reproducir música
     var music = document.getElementById('bg-music');
     if (music) {
-      music.currentTime = 5;
+      music.currentTime = 15;
       var playPromise = music.play();
       if (playPromise !== undefined) {
         playPromise.catch(function(error) {
